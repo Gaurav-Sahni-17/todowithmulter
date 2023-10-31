@@ -1,0 +1,49 @@
+body{
+    display: flex;
+}
+#left{
+   height:100vh;
+   width:50%;
+   background-color: grey;
+}
+#left p{
+    font-size: 1.5rem;
+    margin: 2%;
+}
+#left h1{
+    font-size: 3rem;
+    margin: 2%;
+}
+#left li{
+    margin:2%;
+}
+#right{
+    width:50%;
+}
+#list{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    height:50px;
+    font-size: 1.5rem;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+li span{
+    min-width:80%;
+    max-width: 80%;
+}
+li button{
+    height:25px;
+    align-self: center;
+}
+li div{
+    display:flex;
+    min-width:15%;
+    justify-content:space-between;
+}
+li div img{
+    height:40px;
+    width:40px;
+}
